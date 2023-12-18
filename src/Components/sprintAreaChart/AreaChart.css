@@ -1,0 +1,154 @@
+.sprints_container {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  
+  .custom_tooltip {
+    background-color: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 240px;
+    border-radius: 8px;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .sprints_container {
+      height: 100vh;
+      width: 100%;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+  .header_text_container {
+    display: flex;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header_text {
+    width: 400px;
+  }
+  
+  .text {
+    font-size: 12px;
+    color: var(--primary-color);
+    text-align: center;
+  }
+  
+  .area_chart_container {
+    height: 1000px;
+    width: 1000px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .area_chart_container {
+      height: 1000px;
+      width: 1000px;
+    }
+  
+    .text {
+      font-size: 18px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .area_chart_container {
+      height: 600px;
+      width: 1000px;
+    }
+  
+    .text {
+      font-size: 20px;
+    }
+  }
+  
+  .sprints_header_text_container {
+    display: flex;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sprints_text {
+    color: var(--primary-color);
+    margin: 12px;
+  }
+  
+  .chart_text_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+  }
+  .chart_text_indicate_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .chart_text_container {
+      display: flex;
+      gap: 20px;
+    }
+    .chart_text_indicate_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .chart_text_container {
+      display: flex;
+      gap: 30px;
+    }
+    .chart_text_indicate_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+  .icon {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  .issue_open_container {
+    background-color: var(--third-color);
+  }
+  .issue_started_container {
+    background-color: var(--secondary-color);
+  }
+  .issue_completed_container {
+    background-color: var(--primary-color);
+  }
+  
+  .issue_text {
+    padding-top: 12px;
+  }
+  
+  .forecast_container {
+    background-color: var(--fourth-color);
+  }
+  
+  .issue_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
